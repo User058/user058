@@ -20,27 +20,27 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Link Hosting Kalian Untuk Ssh Vpn
-akbarvpn="raw.githubusercontent.com/lizsvr/cfnfree/main/ssh"
+akbarvpn="raw.githubusercontent.com/User058/user058/main/ssh"
 # Link Hosting Kalian Untuk Sstp
-akbarvpnn="raw.githubusercontent.com/lizsvr/cfnfree/main/sstp"
+akbarvpnn="raw.githubusercontent.com/User058/user058/main/sstp"
 # Link Hosting Kalian Untuk Ssr
-akbarvpnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/ssr"
+akbarvpnnn="raw.githubusercontent.com/User058/user058/main/ssr"
 # Link Hosting Kalian Untuk Shadowsocks
-akbarvpnnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/shadowsocks"
+akbarvpnnnn="raw.githubusercontent.com/User058/user058/main/shadowsocks"
 # Link Hosting Kalian Untuk Wireguard
-akbarvpnnnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/wireguard"
+akbarvpnnnnn="raw.githubusercontent.com/User058/user058/main/wireguard"
 # Link Hosting Kalian Untuk Xray
 akbarvpnnnnnn="https://raw.githubusercontent.com/givpn/AutoScriptXray/master/xray/ins-xray.sh"
 # Link Hosting Kalian Untuk Ipsec
-akbarvpnnnnnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/ipsec"
+akbarvpnnnnnnn="raw.githubusercontent.com/User058/user058/main/ipsec"
 # Link Hosting Kalian Untuk Backup
-akbarvpnnnnnnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/backup"
+akbarvpnnnnnnnn="raw.githubusercontent.com/User058/user058/main/backup"
 # Link Hosting Kalian Untuk Websocket
-akbarvpnnnnnnnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/websocket"
+akbarvpnnnnnnnnn="raw.githubusercontent.com/User058/user058/main/websocket"
 # Link Hosting Kalian Untuk Ohp
-akbarvpnnnnnnnnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/ohp"
+akbarvpnnnnnnnnnn="raw.githubusercontent.com/User058/user058/main/ohp"
 # link Hosting update
-akbarvpnnnnnnnnnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/update"
+akbarvpnnnnnnnnnnn="raw.githubusercontent.com/User058/user058/main/update"
 
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
@@ -77,7 +77,7 @@ wget https://${akbarvpnnnnnnnn}/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 # Update Menu
 #wget https://${akbarvpnnnnnnnnnnn}/getupdate.sh && chmod +x getupdate.sh && ./getupdate.sh
 # sslh fix
-wget https://raw.githubusercontent.com/lizsvr/cfnfree/main/sslh-fix/sslh-fix.sh && chmod +x sslh-fix.sh && ./sslh-fix.sh
+wget https://raw.githubusercontent.com/User058/user058/main/sslh-fix/sslh-fix.sh && chmod +x sslh-fix.sh && ./sslh-fix.sh
 #restart service
 restart
 
