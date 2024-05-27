@@ -30,7 +30,7 @@ akbarvpnnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/shadowsocks"
 # Link Hosting Kalian Untuk Wireguard
 akbarvpnnnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/wireguard"
 # Link Hosting Kalian Untuk Xray
-akbarvpnnnnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/xray"
+akbarvpnnnnnn="https://raw.githubusercontent.com/givpn/AutoScriptXray/master/xray/ins-xray.sh"
 # Link Hosting Kalian Untuk Ipsec
 akbarvpnnnnnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/ipsec"
 # Link Hosting Kalian Untuk Backup
@@ -75,7 +75,7 @@ wget https://${akbarvpnnnnnnnnnn}/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 #Setting Backup
 wget https://${akbarvpnnnnnnnn}/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 # Update Menu
-wget https://${akbarvpnnnnnnnnnnn}/getupdate.sh && chmod +x getupdate.sh && ./getupdate.sh
+#wget https://${akbarvpnnnnnnnnnnn}/getupdate.sh && chmod +x getupdate.sh && ./getupdate.sh
 # sslh fix
 wget https://raw.githubusercontent.com/lizsvr/cfnfree/main/sslh-fix/sslh-fix.sh && chmod +x sslh-fix.sh && ./sslh-fix.sh
 #restart service
