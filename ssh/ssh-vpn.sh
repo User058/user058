@@ -29,7 +29,7 @@ clear
 akbarvpn="raw.githubusercontent.com/lizsvr/cfnfree/main/ssh"
 
 # Link Hosting Kalian Untuk Xray
-akbarvpnn="raw.githubusercontent.com/lizsvr/cfnfree/main/xray"
+akbarvpnn="https://raw.githubusercontent.com/givpn/AutoScriptXray/master/xray/ins-xray.sh"
 
 # Link Hosting Kalian Untuk Trojan Go
 akbarvpnnn="raw.githubusercontent.com/lizsvr/cfnfree/main/trojango"
